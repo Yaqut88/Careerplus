@@ -1,0 +1,513 @@
+#kontaktbutonu,
+.newsbutonu {
+    border: none;
+    background-color: #5311b2;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    padding: 6px;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bayraq {
+    width: 60px;
+    height: 60px;
+}
+
+#navbarnav {
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.navbar .container {
+    background-color: white;
+}
+
+.violet {
+    background-color: #5311b2;
+}
+
+.plus {
+    background-color: #5311b2;
+}
+
+.metn {
+    color: white;
+
+}
+
+.kontakt {
+    background-color: #e99a00;
+    width: 140px;
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #e99a00;
+}
+
+.metn span {
+    color: #e99a00;
+}
+
+.news {
+    width: 80px;
+    height: 30px;
+    background-color: #5311b2;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.readarticle {
+    color: #5311b2;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.readarticle h6{
+    color: #5311b2;
+}
+.artikl {
+    color: #6429BA;
+    font-weight: 700;
+
+}
+
+.bloqs {
+    font-weight: 300;
+}
+
+.linkedin,
+.facebook {
+    width: 130px;
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #6429BA;
+    color: #6429BA;
+    background-color: white;
+    padding: 2px;
+}
+
+.linkedin span,
+.facebook span {
+    font-weight: 500;
+}
+
+button span {
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.facebook {
+    margin-left: 20px;
+}
+
+.followus {
+    width: auto;
+    height: 160px;
+    background-color: #6429BA;
+    border-radius: 5px;
+    margin-left: 5px;
+    border-bottom: 30px solid #e99a00;
+}
+
+#followus {
+    color: white;
+    margin-left: 60px;
+}
+
+.kontaktus svg {
+    border-radius: 12px;
+    background-color: #e99a00;
+    padding: 3px;
+}
+
+.card-body {
+    background-color: #cacaca
+}
+
+.form2 {
+    height: 45px;
+}
+
+h2 span {
+    color: #e99a00;
+    font-weight: 700;
+}
+
+.contact1 {
+    border: 3px solid white;
+    border-radius: 7px;
+    background-color: #6429BA;
+    color: white;
+}
+
+.karyerkontakt {
+    width: auto;
+    height: 500px;
+    background-color: #6429BA;
+    border-radius: 3px;
+    margin-left: 6px;
+    margin-top: -16px;
+}
+
+.kontakt2 {
+    color: white;
+}
+
+svg {
+    color: white;
+
+}
+
+a {
+    color: white;
+}
+
+#flag-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    list-style-type: none;
+}
+
+.dilsecimi {
+    border-radius: 7px;
+    height: 38px;
+    width: 80px;
+    margin-top: 7px;
+    border: 1px solid black;
+
+}
+
+.dilsecimi:hover #flag-content {
+    display: block;
+}
+
+.dilsecimi ul li a {
+    margin-left: -15px;
+}
+
+.dilsecimi ul li {
+    list-style-type: none;
+}
+
+.violet1 {
+    width: auto;
+    /* height: 250px; */
+    background-color: #6429BA;
+    /* margin-left: 110px; */
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.futer {
+    color: white;
+    font-size: larger;
+    border-top: 30px solid #e99a00;
+}
+.artikl7{
+    margin-left: 60px;
+}
+.son {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+.buttonsend {
+    width: 140px;
+    height: 40px;
+    background-color: #6429BA;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    padding: 2px;
+}
+
+.form-label {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.kontaktus {
+    margin-left: 60px;
+}
+
+.kart1 {
+    margin-left: 15px;
+}
+
+.author {
+    font-weight: 600;
+}
+
+.sekil57 {
+    border-radius: 50px;
+}
+
+.avtor {
+    margin-left: 30px;
+}
+
+.tarix {
+    font-weight: 300;
+    font-size: small;
+}
+
+.about {
+    height: 450px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sual{
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 350px;
+    height: auto;
+}
+
+.violet {
+    border-radius: 20px;
+}
+
+.aboutsehife {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.violet3 {
+    background-color: #6429BA;
+    border-radius: 10px;
+}
+
+.bosluq1 {
+    background-color: #e99a00;
+    width: 1460px;
+    height: 25px;
+}
+
+.aboutson {
+    color: white;
+    margin: 60px;
+    font-weight: 200;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+}
+
+.trainings {
+    height: 200px;
+}
+
+.seemore {
+    color: white;
+    background-color: #6429BA;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    margin-top: 30px;
+
+}
+
+.servis {
+    background-color: #cacaca;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+.servisname {
+    margin-top: 50px;
+}
+
+.training2 {
+    background-color: #cacaca;
+    border-radius: 8px;
+    height: 150px;
+
+}
+
+.treyninq2 {
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.something {
+    margin-left: 30px;
+}
+
+.treyninq5 img {
+    width: auto;
+    height: auto;
+}
+
+.artikl3 {
+    width: 200px;
+    height: auto;
+}
+
+.buton5 {
+    display: block;
+}
+
+.buton5 button {
+    float: left;
+}
+
+/* .sekil3 {
+    margin-left: 80px;
+} */
+
+.karolina {
+    margin-top: -30px;
+}
+.karolina1{
+    margin-top: -15px;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .aboutson {
+        margin: 20px;
+    }
+
+    .sekil3 {
+        margin-top: 10px;
+        /* margin-right: 100px; */
+        width: 250px;
+        height: auto;
+    }
+    .sekil4{
+        width: 200px;
+    }
+.logo5{
+    width: 250px;
+}
+    .list-unstyled li a {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .sekil3 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .navbar-brand img {
+        width: 150px;
+        margin-left: 40px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .artiklfeysbuk {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+.plus{
+    width: 200px;
+}
+.followus{
+    height: auto;
+    width: auto;
+}
+.karyerkontakt{
+    width: auto;
+    height: auto;
+}
+.sosialsebeke{
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.buttonsend{
+    margin-bottom: 15px;
+}
+.linkedin{
+    margin-left: 20px;
+}
+.sekil3{
+    display: flex;
+    justify-content: center;
+    margin: 0
+}
+.artikl7{
+    margin-left: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.servispicture{
+    width: 200px;
+    height: 200px;
+}
+    @media screen and (max-width:992px) {
+        .about {
+            height: auto;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .sekil3 {
+            margin-top: 10px;
+        }
+
+        .sekil4 {
+            display: flex;
+            justify-content: center;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+    }
+    @media screen and (max-width:1024px) {
+        .followus{
+            height: auto;
+        }
+        .karyerkontakt{
+            height: auto;
+            width: auto;
+        }
+        .sekil3{
+            margin-left: 0px;
+        }
+       body{
+        overflow-x: hidden;
+       }
+    }
+}

@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+  <!-- slick slider -->
+  <script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <link href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" rel="stylesheet" />
+  <link href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <!-- owl carousel links -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+ <!-- data aos -->
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+
+
+
+
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo1.jpg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servises.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trainings2.html">Trainings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#Contact">
+              <button id="kontaktbutonu"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path
+                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg> Contact</button>
+            </a>
+          </li>
+          <div class="dilsecimi">
+            <ul>
+              <li>
+                <div class="d-flex" style="justify-content: space-between;">
+                  <a href=""> <img src="img/azbayraq.png" alt="" width="35px" height="20px"></a>
+                  <img src="Vector.png" alt="" width="10px" height="5px" style="margin-right: 2px; margin-top: 12px;">
+                </div>
+              </li>
+            </ul>
+            <div id="flag-content">
+              <ul>
+                <li><a href=""><img src="img/flagrussian.png" alt="" width="35px" height="20px"></a> </li>
+                <li><a href=""><img src="img/flagusa.png" alt="" width="35px" height="20px"></a> </li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- navbar end -->
+
+  <section class="mt-5">
+    <div class="container violet">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="metn mt-5">
+            <h1>For Better Future<span>+</span>
+            </h1>
+            <h4 class="mt-3">Our aim is to play a positive role in the careers and well-being of people. Go through a
+              positive change and reach your goals with us!</h4>
+            <a href="index.html#Contact"><button class="kontakt mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path
+                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg> Contact us</button></a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="img/4 1.svg" alt="" class="plus" style="border-radius:15px">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- articles start -->
+  <section class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mt-2">
+            <div> <img src="img/karyerasekil.jpg" class="card-img-top" alt="..."> </div>
+            <div class="card-body" >
+              <h5 class="card-title news">News</h5>
+              <p class="card-text">
+              <h4>Counterproductive Work Behavior</h4>During my many years of work experience in corporate sector, some
+              things that I have observed in various companies, about employee behavior have many times surprised me.
+              Let me explain …</p>
+              <div class="readarticle">
+                <h6>Read full article<< </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mt-2">
+            <div> <img src="img/karyerasekil.jpg" class="card-img-top" alt="..."> </div>
+            <div class="card-body">
+              <h5 class="card-title news">News</h5>
+              <p class="card-text">
+              <h4>Counterproductive Work Behavior</h4>During my many years of work experience in corporate sector, some
+              things that I have observed in various companies, about employee behavior have many times surprised me.
+              Let me explain …</p>
+              <div class="readarticle">
+                <h6>Read full article<< </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mt-2">
+            <div><img src="img/karyerasekil.jpg" class="card-img-top" alt="..."> </div>
+            <div class="card-body">
+              <h5 class="card-title news">News</h5>
+              <p class="card-text">
+              <h4>Counterproductive Work Behavior</h4>During my many years of work experience in corporate sector, some
+              things that I have observed in various companies, about employee behavior have many times surprised me.
+              Let me explain …</p>
+              <div class="readarticle">
+                <h6>Read full article<< </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buton5"> <button class="seemore"> See more</button>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- articles end -->
+
+
+
+  <!-- mentors start -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <h1 class="artikl d-flex justify-content-center mt-5"> Our mentors</h1>
+        <h5 class="bloqs d-flex justify-content-center mt-2 mb-5"> Blogs and writings about interesting topics.</h5>
+        <div class="col-lg-8">
+          <h1>Togrul Hesenov</h1>
+          <p>During my many years of work experience in corporate sector, some things that I have observed in various
+            companies, about employee behavior have many times surprised me. Let me explain …</p>
+
+          <a href="https:/www.linkedin.com">
+            <button class="linkedin mt-7">
+              <div class="d-flex"><img src="img/linkedin.jpg" alt=""><span>Linkedln</span></div>
+            </button></a>
+          <a href="https:/www.facebook.com">
+            <button class="facebook mt-7">
+              <div class="d-flex"><img src="img/facebook.jpg" alt=""><span>Facebook</span></div>
+            </button></a>
+        </div>
+        <div class="col-lg-4">
+          <img class="img-fluid sekil3" src="img/mentor.jpg" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- mentors end -->
+
+  <!-- trainings start -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="text-center mt-3 mb-3">
+          <h1 class="artikl ">Our trainings</h1>
+          <h5 class="bloqs">Some photos from our trainings.</h5>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+          <div class="item"><img src="img/training1.jpg" alt=""></div>
+
+          <div class="item"><img src="img/training2.jpg" alt=""></div>
+
+          <div class="item"> <img src="img/trainig3.jpg" alt=""></div>
+
+          <div class="item"><img src="img/training2.jpg" alt=""></div>
+
+          <div class="item"> <img src="img/trainig3.jpg" alt=""></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- trainings end -->
+
+  <!-- contact start -->
+
+  <section class="mt-5" id="Contact">
+    <div class="container">
+      <div class="row followus">
+        <div class="col-lg-6  mt-5 d-flex">
+          <h2 id="followus">Follow us on sosial media<span>+</span></h2>
+        </div>
+        <div class="col-lg-6 mt-5 d-flex sosialsebeke">
+          <a href="https:/www.linkedin.com">
+            <div class="linkedin">
+              <div class="d-flex" style=" justify-content:space-around; align-items: center"><img src="img/icons8-линкедин-50.png"  style="width:30px" alt=""><span>Linkedln</span></div>
+            </div></a>
+          <a href="https:/www.facebook.com">
+            <div class="facebook">
+              <div class="d-flex" style=" justify-content:space-around; align-items: center"><img src="img/icons8-facebook-новый-50.png"  style="width:30px" alt=""><span>Facebook</span></div>
+            </div></a>
+          <a href="https:/www.instagram.com">
+            <div class="facebook">
+              <div class="d-flex" style=" justify-content:space-around; align-items: center"><img src="img/icons8-instagram-50.png" style="width:30px" alt=""><span>Instagram</span></div>
+            </div></a>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- form start -->
+  <section class="mt-3 ">
+    <div class="container">
+      <div class="row karyerkontakt">
+        <div class="col-lg-6 kontakt2 mt-5">
+          <h2 class="kontaktus">Contact us</h2>
+          <p class="kontaktus mt-5" style="font-size: 18px">For any additional information <br> regarding Coaching, please contact us.</p>
+          <a href="tel:+994555358121">
+            <p class="mt-5 kontaktus"> <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23"
+                fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                <path
+                  d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+              </svg> +994555358121</p>
+          </a>
+          <a href="mailto:info@careerplus.az">
+            <p class="mt-3 kontaktus">
+              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-envelope"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+              </svg> info@careerplus.az
+            </p>
+
+          </a>
+          <a href="">
+            <p class="mt-3 kontaktus">
+              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-geo-alt"
+                viewBox="0 0 16 16">
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+              </svg> Huseyn Javid pr.Baku
+            </p>
+          </a>
+        </div>
+        <div class="col-lg-6 kontaktfolder">
+          <form action="">
+            <div class="d-flex">
+              <div class="col-lg-5  mt-3">
+                <label for="name" class="form-label">First name</label>
+                <input type="text" class="form-control form2" id="name" placeholder="Enter your first name">
+              </div>
+              <div class="col-lg-5 offset-1 mt-3"> <label for="name" class="form-label">Last name</label>
+                <input type="text" class="form-control form2" id="name" placeholder="Enter your last name">
+              </div>
+            </div>
+            <div class="col-lg-11 mt-3">
+              <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+              <input type="email" class="form-control form2" id="exampleFormControlInput1" placeholder="Enter your email">
+            </div>
+            <div class="col-lg-11 mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Messages</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"
+                placeholder="Write your messages"></textarea>
+            </div>
+            <button class="buttonsend">Send messages</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- form end -->
+
+  <!-- contact end -->
+
+
+
+
+  <!-- footer start -->
+  <section class="violet1 mt-5 futer">
+    <footer class="page-footer font-small blue pt-4">
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+            <img  class="img-fluid logo5" src="img/logo-1 2@2x.png" alt="" width="300px" height="50px">
+          </div>
+          <!-- Grid column -->
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="about.html">About</a>
+              </li>
+              <li>
+                <a href="#!">Gallery</a>
+              </li>
+              <li>
+                <a href="trainings.html">Trainings</a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="col-md-3 mb-md-0 mb-3">
+            <ul class="list-unstyled">
+              <li>
+                <a href="article.html">Article</a>
+              </li>
+              <li>
+                <a href="#!">Coaching</a>
+              </li>
+              <li>
+                <a href="index.html#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-copyright text-center py-3">© 2023 Copyright:
+        <a href="/">All rights reserved</a>
+      </div>
+      
+    </footer>
+   
+  </section>
+  <!-- footer end -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      dots: true,
+
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
+
+
+  <script>
+    $(document).ready(function () {
+      $('.center').slick({
+        infinite: true,
+        dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+      });
+    });
+  </script>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+
+</body>
+
+</html>
